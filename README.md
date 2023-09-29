@@ -5,3 +5,8 @@ For this project, the Arduino Uno which embedded an atmega382p will be used to c
 It will receive its control data from a mobile application to perform a remote control of the robot. 
 The communication between the robot and the mobile app is done thank to an ESP8266 which will communicate via Wi-Fi + Firebase backend with the mobile application. 
 The ESP8266 and the Arduino Uno will communicate through an USART serial communication to share information. The Arduino (atmega 328p) will perform the operative action of the system as manage motor, sensors and actuators.
+
+## Repository description
+
+- embedded_codes: contains code to interact with engines, low level sensor, set timers, PWM and configure UART communication of the atmega 328p.
+- esp_IoT_Firebase_com: constains the code of the ESP8266 and perform the communication with Firebase that allows to interact with the mobile application.
